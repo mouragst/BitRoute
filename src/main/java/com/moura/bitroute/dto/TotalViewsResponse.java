@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class CreatePasteResponse {
+public class TotalViewsResponse {
     private String shortlink;
+    private Long totalViews;
 }
